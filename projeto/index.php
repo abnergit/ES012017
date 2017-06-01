@@ -289,6 +289,7 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+BASEPATH = "/app/ES012017/projeto/system/";
 echo BASEPATH;
 die();
 require_once BASEPATH.'core/CodeIgniter.php';
