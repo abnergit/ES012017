@@ -1,3 +1,34 @@
+
+#login-dp{
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow:hidden;
+  background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+  font-size:12px
+}
+#login-dp .bottom{
+  background-color:rgba(255,255,255,.8);
+  border-top:1px solid #ddd;
+  clear:both;
+  padding:14px;
+}
+
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+  #login-dp{
+    background-color: inherit;
+    color: #fff;
+  }
+  #login-dp .bottom{
+    background-color: inherit;
+    border-top:0 none;
+  }
+}
 .panel {
   overflow: hidden;
   text-align: left;
@@ -13,11 +44,15 @@
   border-style: solid;
 }
 .panel-header {
-  padding: 5px;
+  /*padding: 5px;*/
   position: relative;
+  text-align: center;
+
 }
 .panel-title {
   background: url('images/blank.gif') no-repeat;
+  text-align: center;
+
 }
 .panel-header-noborder {
   border-width: 0 0 1px 0;
@@ -131,6 +166,7 @@
   color: #777;
   height: 16px;
   line-height: 16px;
+  text-align: center;
 }
 .panel-footer {
   border: 1px solid #D4D4D4;
@@ -176,10 +212,12 @@
   filter: none;
 }
 .accordion .accordion-header-selected {
-  background: #0081c2;
+  /background: #0081c2;
 }
 .accordion .accordion-header-selected .panel-title {
   color: #fff;
+  text-align: center;
+
 }
 .window {
   overflow: hidden;
@@ -1279,7 +1317,6 @@
   text-align: center;
   overflow: hidden;
 }
-.datagrid-header-check input,
 .datagrid-cell-check input {
   margin: 0;
   padding: 0;
@@ -2568,4 +2605,10 @@
   border-color: transparent;
   background: transparent;
   color: #333;
+}
+.btn-cadastro{
+    height:100px;
+    width:200px;
+    background-color: rgba(183, 50, 73, 0.81);
+    padding: 20px;
 }
