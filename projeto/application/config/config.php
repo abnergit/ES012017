@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'https://unbook.herokuapp.com/projeto';
+$config['base_url'] = 'https://unbook-old.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
