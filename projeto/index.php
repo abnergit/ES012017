@@ -223,7 +223,7 @@ switch (ENVIRONMENT)
 
 	// Path to the system folder
 	//define('BASEPATH', str_replace('\\', '/', $system_path));
-	define('BASEPATH', "/app/projeto/");
+	define('BASEPATH', "/app/ES012017/projeto/");
 
 	// Path to the front controller (this file)
 	define('FCPATH', dirname(__FILE__).'/');
