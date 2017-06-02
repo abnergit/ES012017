@@ -222,9 +222,8 @@ switch (ENVIRONMENT)
 	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
 
 	// Path to the system folder
-	//define('BASEPATH', str_replace('\\', '/', $system_path));
-	define('BASEPATH', "/app/ES012017/projeto/");
-
+	define('BASEPATH', str_replace('\\', '/', $system_path));
+	
 	// Path to the front controller (this file)
 	define('FCPATH', dirname(__FILE__).'/');
 
